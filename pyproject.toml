@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "serhii_sorochinskii"
+version = "0.1.0"
+description = ""
+authors = ["Sergei Sorochinskii <sergei.sorochinskii93@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+fastapi = "^0.115.4"
+uvicorn = "^0.32.0"
+pydiator-core = "^1.0.12"
+sqlalchemy = "^2.0.36"
+alembic = "^1.14.0"
+pydantic-settings = "^2.6.1"
+asyncpg = "^0.30.0"
+pyjwt = "^2.9.0"
+passlib = "^1.7.4"
+fastapi-contrib = "^0.2.11"
+fastapi-injector = "^0.8.0"
+pytest = "^8.3.5"
+aiosqlite = "^0.21.0"
+anyio = "^4.9.0"
+pytest-asyncio = "^0.26.0"
+pytest-tornasync = "^0.6.0.post2"
+pytest-trio = "^0.8.0"
+pytest-twisted = "^1.14.3"
+twisted = "^24.11.0"
+pydantic = {extras = ["email"], version = "^2.11.3"}
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^6.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
