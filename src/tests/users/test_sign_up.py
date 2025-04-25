@@ -1,7 +1,6 @@
 from typing import cast
 
 import pytest
-from fastapi import HTTPException
 from pydantic_core._pydantic_core import ValidationError
 from sqlalchemy import select
 
