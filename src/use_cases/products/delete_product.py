@@ -1,5 +1,3 @@
-from decimal import Decimal
-
 from injector import Inject
 from pydantic import BaseModel, Field
 from pydiator_core.interfaces import BaseHandler, BaseRequest, BaseResponse
