@@ -5,7 +5,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "ckeckbox_test"
+    PROJECT_NAME: str = "Serhii Sorochinskii pixo_test"
     BACKEND_CORS_ORIGINS: list[str] = os.environ.get(  # type: ignore
         "BACKEND_CORS_ORIGINS",
         [

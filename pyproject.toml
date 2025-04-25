@@ -27,6 +27,7 @@ pytest-trio = "^0.8.0"
 pytest-twisted = "^1.14.3"
 twisted = "^24.11.0"
 pydantic = {extras = ["email"], version = "^2.11.3"}
+slowapi = "^0.1.9"
 
 
 [tool.poetry.group.dev.dependencies]
