@@ -2,9 +2,7 @@ from pydantic import BaseModel
 import traceback
 from typing import List, Optional
 
-from fastapi import HTTPException
 from fastapi.encoders import jsonable_encoder
-from fastapi.exceptions import RequestValidationError
 from starlette import status
 from starlette.responses import JSONResponse
 from typing import Tuple, TypedDict, Union
