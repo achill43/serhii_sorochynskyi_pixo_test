@@ -31,7 +31,7 @@ jobs:
       
       - name: Run tests
         run: |
-          cd src
+          cd backend/src
           export PYTHONPATH="${PYTHONPATH}:$(pwd)"
           pytest -p no:warnings tests/
 
